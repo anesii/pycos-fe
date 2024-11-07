@@ -1,0 +1,72 @@
+.signup-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-family: 'Cursive', sans-serif; /* Match the design */
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    text-align: left;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #039595; /* Primary button color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #017a7a; /* Darker shade on hover */
+}
+
+.divider {
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.google-button {
+    background-color: #039595; /* Google button color */
+    color: white;
+}
+
+.google-button:hover {
+    background-color: #017a7a; /* Darker shade on hover */
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
